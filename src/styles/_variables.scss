@@ -1,0 +1,30 @@
+/* --------------------------------- Fontes --------------------------------- */
+
+$font-inter: "Inter", sans-serif !important;
+$font-aclonica: "Aclonica", sans-serif !important;
+$font-bebas: "Bebas Neue", sans-serif !important;
+
+/* ---------------------------------- Cores --------------------------------- */
+$color-primary: #cb81ff;
+$color-secundary: #1d232a;
+
+/* --------------------------------- Fontes --------------------------------- */
+$sm-font: 12px;
+$md-font: 15px;
+$mdres-font: calc(10px + 0.5vw);
+$bg-font: 22px;
+$xl-font: calc(10px + 2vw);
+$xxl-font: calc(56px + 3vw);
+$uxl-font: calc(60px + 4vw);
+
+/* ------------------------------- Backgrounds ------------------------------ */
+
+$img-noise: url("../../public/covers/Noise.svg");
+
+$img-blobTL: url("../../public/covers/Blob.topLeft.svg");
+$img-blobTR: url("../../public/covers/Blob.topRight.svg");
+$img-blobBL: url("../../public/covers/Blob.botLeft.svg");
+$img-blobBR: url("../../public/covers/Blob.botRight.svg");
+
+$logo-white: url("../../public/logo/WOWlogoPT.png");
+$logo-black: url("../../public/logo/WOWlogoBC.png");

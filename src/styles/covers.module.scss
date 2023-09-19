@@ -1,0 +1,215 @@
+@import "variables";
+
+/* ----------------------------- Covers ----------------------------- */
+
+.relativeDiv {
+  position: relative;
+  width: 100vw;
+  height: auto;
+}
+
+.absoluteBack {
+  background-repeat: no-repeat;
+  position: absolute;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -9;
+}
+
+.topLeft {
+  top: 0;
+  right: 0;
+  background-image: $img-blobTL;
+}
+
+.topRight {
+  top: 0;
+  right: 0;
+  background-image: $img-blobTR;
+  margin-right: -50px;
+}
+
+.botRight {
+  top: 1;
+  right: 0;
+  background-image: $img-blobBR;
+  overflow: hidden;
+}
+
+.botLeft {
+  top: 1;
+  right: 0;
+  background-image: $img-blobBL;
+}
+/* ------------------------------ mockups icons ----------------------------- */
+
+.mockup {
+  -o-object-fit: contain;
+  object-fit: contain;
+  max-width: 800px;
+  width: 90% !important;
+  position: relative !important;
+  height: unset !important;
+  margin-bottom: 15vw;
+}
+
+.videomock {
+  border-radius: 20px;
+  border: #fff solid 5px;
+  position: absolute;
+  margin-top: -4%;
+  top: 1;
+  left: 0;
+  margin-left: 5%;
+  width: 32vw;
+  max-width: 400px;
+  z-index: 10;
+}
+
+//icons
+
+.aboutIcon {
+  position: absolute;
+  top: 1;
+  width: 9vw;
+}
+
+.react {
+  margin-left: 17vw;
+  margin-top: -18vw;
+  left: 0;
+}
+.react:hover {
+  -webkit-filter: invert(43%) sepia(90%) saturate(576%) hue-rotate(151deg)
+    brightness(100%) contrast(105%);
+  filter: invert(43%) sepia(90%) saturate(576%) hue-rotate(151deg)
+    brightness(100%) contrast(105%);
+}
+
+.sass {
+  width: 8vw !important;
+  margin-left: 8vw;
+  margin-top: -8vw;
+  left: 0;
+}
+.sass:hover {
+  -webkit-filter: invert(65%) sepia(15%) saturate(3595%) hue-rotate(293deg)
+    brightness(100%) contrast(82%);
+  filter: invert(65%) sepia(15%) saturate(3595%) hue-rotate(293deg)
+    brightness(100%) contrast(82%);
+}
+
+.js {
+  margin-left: 17vw;
+  margin-top: 2vw;
+  left: 0;
+}
+.js:hover {
+  -webkit-filter: brightness(0) saturate(100%) invert(88%) sepia(23%)
+    saturate(6407%) hue-rotate(359deg) brightness(103%) contrast(105%);
+  filter: brightness(0) saturate(100%) invert(88%) sepia(23%) saturate(6407%)
+    hue-rotate(359deg) brightness(103%) contrast(105%);
+}
+
+.typescript {
+  width: 7vw !important;
+  margin-right: 18vw;
+  margin-top: -18vw;
+  right: 0;
+}
+.typescript:hover {
+  -webkit-filter: invert(43%) sepia(90%) saturate(576%) hue-rotate(160deg)
+    brightness(60%) contrast(250%);
+  filter: invert(43%) sepia(90%) saturate(576%) hue-rotate(160deg)
+    brightness(60%) contrast(250%);
+}
+
+.tailwind {
+  margin-right: 8vw;
+  margin-top: -8vw;
+  right: 0;
+}
+.tailwind:hover {
+  -webkit-filter: invert(43%) sepia(90%) saturate(576%) hue-rotate(151deg)
+    brightness(130%) contrast(50%);
+  filter: invert(43%) sepia(90%) saturate(576%) hue-rotate(151deg)
+    brightness(130%) contrast(50%);
+}
+
+.nextjs {
+  margin-right: 17vw;
+  margin-top: 2vw;
+  right: 0;
+}
+.nextjs:hover {
+  -webkit-filter: invert(65%) sepia(15%) saturate(3595%) hue-rotate(293deg)
+    brightness(150%) contrast(50%);
+  filter: invert(65%) sepia(15%) saturate(3595%) hue-rotate(293deg)
+    brightness(150%) contrast(50%);
+}
+
+/* ---------------------------------- Divs ---------------------------------- */
+
+.divHeader {
+  position: relative;
+  min-height: 80vh;
+  max-height: 750px;
+  height: 50vw;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.divAbout {
+  width: auto;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.cardivs {
+  padding: 0% 10%;
+  height: 30vh;
+  width: 100vw;
+  min-height: 150px;
+  overflow: hidden;
+}
+
+.cardcenter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.cardBorder {
+  border: #36283d solid 4px;
+  border-radius: 25px;
+}
